@@ -1,0 +1,15 @@
+Added into file crawler.h
+ - Node structure
+ - Struct for fetch function to pass it as argument in thread
+ - struct for edge function to pass it as argument in thread
+
+ Added into file crawler.c
+ - enqueue, dequeue, front
+ - hash function
+ - parse_page function which is called in parse
+ - parse and download function for the two types of threads
+ - in crawls, variables are initialized and thread are created
+
+ Work distribution
+ 2012-EE-196 : parse and download function for threads
+ 2012-EE-197 : parse_page and queue functions
